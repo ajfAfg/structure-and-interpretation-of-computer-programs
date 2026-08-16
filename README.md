@@ -1,5 +1,7 @@
 # structure-and-interpretation-of-computer-programs
 
+「[Structure and Interpretation of Computer Programs, second edition](https://www.vocrf.net/docs_ja/jsicp.pdf)」の練習問題を解くための Docker 環境および練習問題の解答を管理する。
+
 ## 開発環境
 
 [schemers/racket](https://hub.docker.com/r/schemers/racket) イメージをベースにした Docker 開発環境を利用する(バージョンは `Dockerfile` の `FROM` で固定)。[sicp パッケージ](https://docs.racket-lang.org/sicp-manual/)がインストール済みで、`#lang sicp` と図形言語(`sicp-pict`)が使える。リポジトリルートがコンテナの `/workspace` にマウントされる。
